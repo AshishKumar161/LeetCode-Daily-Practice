@@ -1,110 +1,99 @@
+
 # LeetCode Daily Practice
 
-This repository contains my daily LeetCode solutions with problem statements, basic approaches, optimized LeetCode approaches, explanations, and C++ code.
+A structured collection of my daily LeetCode problem-solving journey using C++.
+This repository contains problem statements, multiple approaches, optimized solutions, explanations, dry runs, and complexity analysis.
 
-## Goal
+---
 
-I am solving DSA problems daily to improve my problem-solving skills and prepare for product-based companies like Google, Apple, Microsoft, Amazon, and other top tech companies.
+## Objective
 
-## Language Used
+The goal of this repository is to:
 
-- C++
+* Strengthen Data Structures and Algorithms concepts
+* Improve problem-solving and logical thinking
+* Build consistency through daily coding practice
+* Prepare for coding interviews and product-based companies
+* Track long-term DSA progress publicly
 
-## Repository Structure
+---
 
-Each problem folder contains separate files for better readability:
+## Tech Stack
 
-- `question.md` - Problem statement
-- `basic_approach.cpp` - Basic or brute force approach
-- `leetcode_approach.cpp` - Optimized LeetCode accepted approach
-- `explanation.md` - Approach, dry run, time complexity, and space complexity
+* **Language:** C++
+* **Platform:** LeetCode
+* **IDE:** Visual Studio Code
+* **Version Control:** Git & GitHub
 
-## Folder Structure
+---
 
-```text
-LeetCode-Daily-Practice/
-│
-├── README.md
-├── .gitignore
-│
-└── Month-01/
-    │
-    ├── DAY 001/
-    │   └── 136_Single_Number/
-    │       ├── question.md
-    │       ├── solution.cpp
-    │       └── explanation.md
-    │
-    ├── DAY 002/
-    │   └── 53_Maximum_Subarray/
-    │       ├── question.md
-    │       ├── solution.cpp
-    │       └── explanation.md
-    │
-    ├── DAY 003/
-    │   └── 75_Sort_Colors/
-    │       ├── question.md
-    │       ├── basic_approach.cpp
-    │       ├── leetcode_approach.cpp
-    │       └── explanation.md
-    │
-    ├── DAY 004/
-    │   └── 876_Middle_of_the_Linked_List/
-    │       ├── question.md
-    │       ├── basic_approach.cpp
-    │       ├── leetcode_approach.cpp
-    │       └── explanation.md
-    │
-    └── DAY 005/
-        └── 206_Reverse_Linked_List/
-            ├── question.md
-            ├── basic_approach.cpp
-            ├── leetcode_approach.cpp
-            └── explanation.md
-```
+# Repository Structure
 
-## Progress
+Each problem is organized into separate files for better readability and learning.
 
-| Day     | Problem No. | Problem Name                                                               | Topic                                | Status |
-| ------- | ----------: | -------------------------------------------------------------------------- | ------------------------------------ | ------ |
-| DAY 001 |         136 | [Single Number](Month-01/DAY%20001/136_Single_Number)                         | Bit Manipulation / XOR               | Done   |
-| DAY 002 |          53 | [Maximum Subarray](Month-01/DAY%20002/53_Maximum_Subarray)                    | Array / Kadane's Algorithm           | Done   |
-| DAY 003 |          75 | [Sort Colors](Month-01/DAY%20003/75_Sort_Colors)                              | Array / Two Pointers / DNF Algorithm | Done   |
-| DAY 004 |         876 | [Middle of the Linked List](Month-01/DAY%20004/876_Middle_of_the_Linked_List) | Linked List / Two Pointers           | Done   |
-| DAY 005 |         206 | [Reverse Linked List](Month-01/DAY%20005/206_Reverse_Linked_List)             | Linked List / Pointers               | Done   |
+## Files Included
 
-## Daily Rule
+* `question.md`
+  Contains the original problem statement and examples.
+* `brute_force.cpp`
+  Basic or brute force approach for understanding the problem.
+* `leetcode_solution.cpp`
+  Optimized solution submitted on LeetCode.
+* `explanation.md`
+  Detailed explanation including:
 
-- Understand the question
-- Try the basic approach first
-- Solve using optimized LeetCode approach
-- Write explanation and dry run
-- Push code to GitHub daily
+  * Approach
+  * Logic
+  * Dry Run
+  * Time Complexity
+  * Space Complexity
 
+---
 
-## Current Focus
+# Topics Covered
 
-- Arrays
-- Linked List
-- Two Pointers
-- Bit Manipulation
-- Searching and Sorting
-- Recursion
+* Arrays
+* Linked Lists
+* Stack
+* Queue
+* Recursion
+* Sorting Algorithms
+* Searching Algorithms
+* Binary Search
+* Trees
+* Graphs
+* Dynamic Programming
 
-## GitHub Commit Rule
+---
 
-For every day, I use this command format:
+# Daily Progress
 
-```bash
-git add .
-git commit -m "Day 005: Solve LeetCode 206 Reverse Linked List"
-git push
-```
+| Day     | Problem                        | Difficulty |
+| ------- | ------------------------------ | ---------- |
+| Day 001 | 136. Single Number             | Easy       |
+| Day 002 | 75. Sort Colors                | Medium     |
+| Day 003 | 876. Middle of the Linked List | Easy       |
+| Day 004 | 206. Reverse Linked List       | Easy       |
+| Day 005 | 21. Merge Two Sorted Lists     | Easy       |
 
-## Note
+---
 
-`.exe` files are ignored using `.gitignore`.
+# Why This Repository?
 
-```text
-*.exe
-```
+This repository helps me:
+
+* Maintain coding consistency
+* Revise important DSA concepts
+* Track progress over time
+* Build a strong GitHub profile
+* Prepare for coding interviews efficiently
+
+---
+
+# Connect With Me
+
+* **GitHub:** AshishKumar161
+
+---
+
+⭐ *Consistency and discipline are the keys to mastering Data Structures and Algorithms.*
