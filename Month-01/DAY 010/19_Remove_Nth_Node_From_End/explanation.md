@@ -190,4 +190,6 @@ This is a brute force approach because:
 - First traversal for counting
 - Second traversal for deletion
 
-Optimized solution uses two pointers and removes node in one traversal.
+Optimized solution uses two pointers and removes node in one traversal.git add .
+git commit -m "Day 010: Solve LeetCode 19 Remove Nth Node From End"
+git push
