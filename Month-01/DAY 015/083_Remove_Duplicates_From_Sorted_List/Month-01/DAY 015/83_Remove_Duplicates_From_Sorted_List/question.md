@@ -1,0 +1,37 @@
+# LeetCode 83 - Remove Duplicates from Sorted List
+
+## Problem Statement
+
+Given the head of a sorted linked list, delete all duplicates such that each element appears only once.
+
+Return the linked list sorted as well.
+
+---
+
+## Example 1
+
+Input:
+
+1 -> 1 -> 2
+
+Output:
+
+1 -> 2
+
+---
+
+## Example 2
+
+Input:
+
+1 -> 1 -> 2 -> 3 -> 3
+
+Output:
+
+1 -> 2 -> 3
+
+git add .
+
+git commit -m "Day 015: Solve LeetCode 83 Remove Duplicates from Sorted List"
+
+git push
