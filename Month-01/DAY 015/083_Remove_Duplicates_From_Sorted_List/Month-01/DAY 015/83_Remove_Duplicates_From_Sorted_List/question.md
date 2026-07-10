@@ -29,9 +29,3 @@ Input:
 Output:
 
 1 -> 2 -> 3
-
-git add .
-
-git commit -m "Day 015: Solve LeetCode 83 Remove Duplicates from Sorted List"
-
-git push
