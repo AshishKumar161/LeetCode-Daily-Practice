@@ -27,7 +27,7 @@ public:
 
                 while (first < second)
                 {
-                    int sum = nums[i] + nums[j] + nums[first] + nums[second];
+                    long long sum = (long long)nums[i] + nums[j] + nums[first] + nums[second];
 
                     if (sum == target)
                     {
@@ -36,12 +36,12 @@ public:
                         first++;
                         second--;
 
-                        while (first < second && nums[first] == nums[first + 1])
+                        while (first < second && nums[first] == nums[first - 1])
                         {
                             first++;
                         }
 
-                        while (first < second && nums[second] == nums[second - 1])
+                        while (first < second && nums[second] == nums[second + 1])
                         {
                             second--;
                         }
