@@ -1,20 +1,14 @@
 class Solution {
     public:
-        int minimumTotal(vector<vector<int>>& triangle) {
-            vector < int > minimum ;
-    
-            for (auto &row : triangle) 
-            {
-                int mn = *min_element(row.begin(), row.end());
-                minimum.push_back(mn) ;
-            }
+        int minimumTotal(vector<vector<int>>& nums) {
             
-            int sum  = 0 ;
-            for (auto &row : minimum)
+            for(int i = nums.size() - 2 ; i >= 0 ; i--)
             {
-                    sum = sum + row ;
+                for (int j = 0 ; j < nums[i].size() ; j++)
+                {
+                    nums[i][j] += min(nums[i+1][j] , nums[i+1][j+1]);
+                }
             }
-    
-            return sum ;
+            return nums[0][0] ;
         }
     };
