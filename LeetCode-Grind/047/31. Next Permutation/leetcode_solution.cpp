@@ -16,7 +16,7 @@ class Solution {
     
             if (pivot == -1) 
             {
-                //reverse(nums.begin() ,nums.end()) ;
+                //reverse(nums.begin() , nums.end()) ;
                 sort (nums.begin() , nums.end()) ;
                 return ;
             }
